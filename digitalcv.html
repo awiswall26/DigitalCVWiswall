@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+
+        <style>
+            body {background-color: rgb(247, 228, 231);}
+            *{font-family: 'Alegreya', serif;}
+            h1 {text-align: center;
+            border-style: double;
+            border-color: rgb(255, 163, 178);}
+
+            .grid {display: grid;
+                grid-template-columns: 200px 200px 200px;  
+                column-gap: 20px;}
+            .image1 {display: row;
+            border:none;
+            text-align: center;
+            padding-top:20px;
+            padding-bottom:5px;}
+            .image2 {flex:1;
+                margin-right:5px;
+                border:none;
+                text-align: center;
+                padding-top: 20px;}
+            .image3 {flex:1;
+            border:none;
+            text-align: center;
+            padding-top:20px;}
+
+            ul {list-style: none;
+            border: solid 2px pink;
+            display:inline-block;
+            padding-left:0px;
+            margin-top:0px;
+            margin-left: 525px;}
+            li a {text-decoration:none;
+            background-color: pink;
+            color:black;
+            display:block;
+            width:90px;
+            padding-top:20px;
+            padding-bottom:20px;
+            text-align:center;}
+            li a:hover {background-color: #f78fb3;}
+            li a.active {background-color: white;}
+            li {float: left;}
+
+            .header {position:relative;}
+            .favicon {position:absolute;
+                    left:475px;
+                    top:10px;}
+            .grid {display:grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                     column-gap: 10px}
+        
+
+        @media only screen and (max-width:992px){
+            ul {list-style: none;
+            border: solid 2px pink;
+            display:inline-block;
+            padding-left:0px;
+            margin-top:0px;
+            margin-left: 275px;}
+
+            .header {position:relative;}
+            .favicon {position:absolute;
+                 left:235px;
+                  top:10px;}
+        } 
+        
+        @media only screen and (max-width:768px){
+            ul {list-style: none;
+            border: solid 2px pink;
+            display:inline-block;
+            padding-left:0px;
+            margin-top:0px;
+            margin-left: 150px;}
+
+            .header {position:relative;}
+            .favicon {position:absolute;
+                 left:135px;
+                  top:10px;}
+        } 
+        
+        @media only screen and (max-width:600px){
+            ul {list-style: none;
+            border: solid 2px pink;
+            display:inline-block;
+            padding-left:0px;
+            margin-top:0px;
+            margin-left: 100px;}
+
+            .header {position:relative;}
+            .favicon {position:absolute;
+                 left:55px;
+                  top:10px;}
+
+            .grid {display: grid;
+                    grid-template-columns: 1fr;}
+        } 
+        
+        
+     
+        </style>
+
+
+
+
+
+
+<title> Ashlyn Wiswall </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+  
+    <body>
+        <div class="header">
+            <h1>Ashlyn Wiswall | All About Me </h1>
+            <img class="favicon" src="favicon-32x32.png">
+        </div>
+        <ul>
+            <li><a class="active" href="digitalcv.html">Home</a></li> 
+            <li><a href="exec.html">Executive</a></li>
+            <li><a href="professional.html">Professional</a></li>
+            <li><a href="personal.html">Personal</a></li> 
+        </ul>
+    
+        <div class="grid">
+
+        <div class="image1">
+            <img src="ExecImage.JPG" height="400px"></img>
+            <p>
+                (484) 905 - 1267
+            </p>
+        </div>
+
+        <div class="image2">
+            <img src="VBImage.JPG" height="400px"></img>
+            <p>
+                AWISWALL@ELON.EDU
+            </p>
+        </div>
+
+        <div class="image3">
+            <img src="PersonalImage.jpeg" height="400px"></img>
+            <p>
+                IG - ASHLYN.WISWALL
+            </p>
+        </div>
+
+    </div>
+
+    </body>
+
+</html>
